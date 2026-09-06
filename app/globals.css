@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-gold {
+  @apply px-8 py-3 bg-gold text-cream rounded-full font-semibold transition-all duration-300 hover:bg-brown hover:shadow-lg cursor-pointer;
+}
+
+.nav-link {
+  @apply text-brown hover:text-gold transition-colors duration-200 font-medium;
+}
